@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* color */
+$SITE_WHITE_COLOR: #fff;
+$SITE_BACK_COLOR: #D3EBEA;
+$SITE_BASE_COLOR: #555;
+$SITE_THIN_COLOR: #f1efee;
+
+/* width */
+$CONTENT_WIDTH: 960px;
+
+/* font-size */
+$FONT_SIZE_L: 16px;
+$FONT_SIZE_M: 14px;
+
+/* line height */
+$BASE_LINE_HEIGHT: 1.625;
+$BASE_LINE_HEIGHT_SP: 1.428;
+
+/* BASE_LINK_COLOR */
+$BASE_LINK_COLOR: #1075bf;
+

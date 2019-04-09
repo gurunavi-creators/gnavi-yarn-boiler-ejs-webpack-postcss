@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.c-mainvisual {
+  min-width: $CONTENT_WIDTH;
+
+  @mixin mq {
+    min-width: unset;
+  }
+
+  &-inner {
+    padding: 96px 0 72px 0;
+    height: 100%;
+    text-align: center;
+    margin: 0 12px;
+
+    @mixin mq {
+      padding: 38px 0 43px;
+    }
+  }
+}

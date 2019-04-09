@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.l-footer {
+  min-width: $CONTENT_WIDTH;
+
+  @mixin mq {
+    width: 100%;
+    min-width: unset;
+  }
+  &-inner {
+    padding: 38px 0;
+    text-align: center;
+    @mixin mq {
+      padding: 22px 0;
+    }
+  }
+
+  /* footer copyright */
+  &-copy {
+    font-size: 14px;
+  }
+}

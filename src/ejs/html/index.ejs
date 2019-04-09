@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<% include ../include/meta %>
+<% var d = new Date(); var year = d.getFullYear(); var month = d.getMonth() + 1; var day = d.getDate(); var hour = d.getHours(); var minutes = d.getMinutes(); %>
+    <link rel="stylesheet" href="assets/css/main.css?<%= year %><%= month %><%= day %><%= hour %><%= minutes %>">
+</head>
+
+<body id="pagetop">
+    <main class="c-main">
+    <% include ../include/header %>
+
+        <% include ../include/mv %>
+
+        <div class="c-main-container">
+            <p>container</p>
+        </div>
+
+        <% include ../include/footer %>
+    </main>
+    <script src="assets/js/common.js?<%= year %><%= month %><%= day %><%= hour %><%= minutes %>"></script>
+
+</body>
+</html>
