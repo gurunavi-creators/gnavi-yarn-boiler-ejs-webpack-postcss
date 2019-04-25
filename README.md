@@ -40,7 +40,7 @@ $ yarn install
 ```sh
 $ yarn build
 ```
-    ビルドします。同時にwatchタスクが走ります。
+    ビルドします。
 
 ## watch command
 

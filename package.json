@@ -14,7 +14,7 @@
     "copy:img": "cpx './src/img/*.*' ./dist/assets/img -w",
     "copy:svg": "cpx './src/svg/*.*' ./dist/assets/svg -w",
     "build-file-clean": "rimraf ./dist",
-    "build": "yarn css:build & yarn html:build & yarn js:build & yarn copy:img & yarn copy:svg & yarn bs",
+    "build": "yarn css:build & yarn html:build & yarn js:build & yarn copy:img & yarn copy:svg",
     "lint": "yarn css:lint & yarn js:lint",
     "start": "yarn build-file-clean & yarn lint & yarn build & yarn bs",
     "watch:html": "watch 'yarn html:build' src/ejs/",
