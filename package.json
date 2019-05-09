@@ -38,7 +38,7 @@
     "eslint": "^4.3.0",
     "eslint-config-gnavi": "^1.1.0",
     "eslint-loader": "^1.9.0",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.1",
     "postcss-advanced-variables": "^1.2.2",
     "postcss-assets": "^4.2.0",
     "postcss-calc": "^6.0.0",
